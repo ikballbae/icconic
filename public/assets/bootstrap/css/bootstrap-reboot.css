@@ -1,0 +1,230 @@
+:root {
+  --main-bg-color: #eaeaea; /* Warna Abu-abu Muda */
+  --main-text-color: #333333; /* Warna Abu-abu Tua */
+  --second-text-color: #666666; /* Warna Abu-abu Sedang */
+  --second-bg-color: #FFFFFF; /* Warna Putih */
+  }
+  
+  /* Sisanya tetap sama seperti sebelumnya */
+  @font-face {
+  font-family: 'Inter';
+  src: url('/assets/font/Montserrat/static/Montserrat-Medium.ttf');
+  }
+  
+  body{
+  font-family: 'Inter';
+  font-size: 15px;
+  }
+  
+  .primary-text {
+  color: #7243cd;
+  }
+  
+  .second-text {
+  color: var(--second-text-color);
+  }
+  
+  .third-text{
+  color: #ef4b6c;
+  }
+  
+  .primary-bg {
+  background-color: #6339b6;
+  }
+  
+  .secondary-bg {
+  background-color: var(--second-bg-color);
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  .rounded-full {
+  border-radius: 100%;
+  }
+  
+  #wrapper {
+  overflow-x: hidden;
+  background-image: linear-gradient(
+  to right,
+  var(--main-bg-color),
+  var(--second-bg-color)
+  );
+  }
+  
+  #sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+  width: 15rem;
+  }
+  
+  #page-content-wrapper {
+  min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+  }
+  
+  #menu-toggle {
+  cursor: pointer;
+  }
+  
+  .list-group-item {
+  border: none;
+  padding: 20px 30px;
+  }
+  
+  .list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+  }
+  
+  .custom-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-card .card-img-top {
+  border-radius: 10px;
+  }
+  
+  .btn-card {
+  border-radius: 12px;
+  font-size: .9rem;
+  background-color: transparent;
+  width: 100%;
+  color: var(--main-text-color);
+  border: 2px solid var(--main-text-color);
+  }
+  
+  .btn-card:hover {
+  background-color: var(--main-text-color);
+  color: white;
+  }
+  
+  .table td img {
+  max-width: 70px;
+  height: auto;
+  border-radius: 7px;
+  }
+  
+  .table td {
+  vertical-align: middle;
+  }
+  
+  /* resources/css/styles.css */
+  
+  /* Style untuk form */
+  .form-group {
+  margin-bottom: 20px;
+  }
+  
+  .form-label {
+  display: block;
+  margin-bottom: 5px;
+  }
+  
+  .form-control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  .btn-primary {
+  background-color: #512fb4; /* Biru Baku */
+  color: #ffffff; /* Putih */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+  background-color: #36188e;
+  }
+  
+  /* Style untuk card */
+  .card {
+  margin-top: 30px;
+  }
+  
+  .card-header {
+  background-color: #512fb4;
+  color: #fff;
+  padding: 15px;
+  }
+  
+  .card-body {
+  padding: 20px;
+  }
+  
+  /* Style untuk judul halaman */
+  .page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  }
+  
+  .card-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+  /* Style untuk container */
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+  
+  /* Style untuk tombol submit */
+  .btn-submit {
+  background-color: #ef4b6c; /* Biru Baku */
+  color: #ffffff; /* Putih */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+  background-color: #e6205f;
+  color: #ffffff;
+  }
+  
+  @media (min-width: 768px) {
+  #sidebar-wrapper {
+  margin-left: 0;
+  }
+  
+  #page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+  margin-left: -15rem;
+  }
+  }
+  
