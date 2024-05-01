@@ -41,7 +41,7 @@
                         </form>
                     </div>
                 </div>
-                <p class="mt-2">Sudah Memiliki Akun? Silahkan <a href="{{ route('auth.register') }}" class="primary-text">Register</a></p>
+                <p class="mt-2">Belum Memiliki Akun? Silahkan <a href="{{ route('auth.register') }}" class="primary-text">Register</a></p>
             </div>
         </div>
     </div>
