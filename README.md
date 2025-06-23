@@ -61,7 +61,7 @@ MySQL >= 8.0
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/icconic.git
+   git clone https://github.com/ikballbae/icconic.git
    cd icconic
    ```
 
@@ -94,76 +94,3 @@ MySQL >= 8.0
    ```
 
 🎉 **Congratulations!** ICCONIC is now running at `http://localhost:8000`
-
-## 📱 Screenshots
-
-<div align="center">
-
-| Dashboard | Sales Transaction | Inventory Management |
-|-----------|-------------------|---------------------|
-| ![Dashboard](https://via.placeholder.com/300x200/FF2D20/FFFFFF?text=Dashboard) | ![Sales](https://via.placeholder.com/300x200/4F46E5/FFFFFF?text=Sales) | ![Inventory](https://via.placeholder.com/300x200/059669/FFFFFF?text=Inventory) |
-
-</div>
-
-## 📚 Documentation
-
-- 📖 [User Guide](docs/user-guide.md)
-- 🔧 [API Documentation](docs/api.md)
-- 🏗️ [Development Guide](docs/development.md)
-- 🚀 [Deployment Guide](docs/deployment.md)
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-php artisan test
-
-# Run with coverage
-php artisan test --coverage
-
-# Run specific test suite
-php artisan test --testsuite=Feature
-```
-
-## 🤝 Contributing
-
-Kami sangat menghargai kontribusi dari komunitas! Silakan baca [Contributing Guidelines](CONTRIBUTING.md) untuk panduan berkontribusi.
-
-### 🌟 Contributors
-
-<div align="center">
-
-![Contributors](https://contrib.rocks/image?repo=yourusername/icconic)
-
-</div>
-
-## 📈 Roadmap
-
-- [ ] 🔄 **Real-time Sync** - Sinkronisasi real-time antar cabang
-- [ ] 📱 **Mobile App** - Aplikasi mobile native
-- [ ] 🤖 **AI Analytics** - Analisis berbasis AI
-- [ ] 🌍 **Multi-store** - Dukungan multi-cabang
-- [ ] 🔌 **Plugin System** - Sistem plugin yang extensible
-
-## 📄 License
-
-ICCONIC dilisensikan di bawah [MIT License](LICENSE).
-
-## 💬 Support
-
-Butuh bantuan? Jangan ragu untuk menghubungi kami:
-
-- 📧 Email: support@icconic.com
-- 💬 Discord: [Join our community](https://discord.gg/icconic)
-- 📚 Documentation: [docs.icconic.com](https://docs.icconic.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/icconic/issues)
-
----
-
-<div align="center">
-
-**⭐ Jika ICCONIC membantu bisnis Anda, berikan star pada repository ini! ⭐**
-
-Made with ❤️ by [Your Team Name]
-
-</div>
